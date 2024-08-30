@@ -1,0 +1,30 @@
+.sidebaroptions {
+    color: whitesmoke !important;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: fit-content;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+
+.sidebaroptions_icon {
+    font-size: 35px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.sidebaroptions_text {
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.sidebaroptions:hover {
+    background-color: rgba(255, 255, 255, 0.345) !important;
+    transition: background-color 300ms ease-out;
+}
+
+/* .sidebaroptions--active {
+    color: aqua !important;
+} */
